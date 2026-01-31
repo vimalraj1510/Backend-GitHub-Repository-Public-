@@ -1,0 +1,56 @@
+{
+  "users": [
+    {
+      "name": "Admin User",
+      "email": "admin@eval.com",
+      "password": "$2a$10$6UoFCG5AlJhtjjliO1AMweLroFa.XgURVKno0llkFRnZ4SaQAqHMW",
+      "role": "ADMIN",
+      "_id": "1769873104012",
+      "createdAt": "2026-01-31T15:25:04.012Z"
+    },
+    {
+      "name": "John Evaluator",
+      "email": "john.eval@eval.com",
+      "password": "$2a$10$9oxUjkZUTekB5Jc5gvBw2.HyiT1eKnVaFzQ/CP9R7Tt90A03DUo4C",
+      "role": "EVALUATOR",
+      "_id": "1769873104118",
+      "createdAt": "2026-01-31T15:25:04.118Z"
+    },
+    {
+      "name": "Sarah Evaluator",
+      "email": "sarah.eval@eval.com",
+      "password": "$2a$10$DXWFzBExYEs08rr6F8XdrOyg2jMj2CFk8j3lXJZWIYwuCj5YHkkg.",
+      "role": "EVALUATOR",
+      "_id": "1769873104188",
+      "createdAt": "2026-01-31T15:25:04.188Z"
+    },
+    {
+      "name": "vimalraj p",
+      "email": "e0223015@sriher.edu.in",
+      "password": "$2a$10$gWwW/fOuYHSB8MEIAT3L5OYWItOR7pATRTJUk8gDeheL87.HafxxK",
+      "role": "ADMIN",
+      "_id": "1769873184526",
+      "createdAt": "2026-01-31T15:26:24.526Z"
+    }
+  ],
+  "evaluations": [
+    {
+      "evaluatorId": "1769873104118",
+      "submissionId": "SUB-001",
+      "score": 85,
+      "remarks": "Excellent work with good structure and clarity",
+      "_id": "1769873104199",
+      "submittedAt": "2026-01-31T15:25:04.199Z",
+      "isFinal": true
+    },
+    {
+      "evaluatorId": "1769873104188",
+      "submissionId": "SUB-002",
+      "score": 78,
+      "remarks": "Good attempt but needs improvement in documentation",
+      "_id": "1769873104222",
+      "submittedAt": "2026-01-31T15:25:04.222Z",
+      "isFinal": true
+    }
+  ]
+}
